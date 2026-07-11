@@ -1,0 +1,8 @@
+{
+  "name": "AI Resume Analyzer & Template Generator",
+  "description": "An AI-powered resume builder, parser, and ATS compatibility analyzer featuring local TF-IDF cosine matching, Naive Bayes resume classification, and Gemini-powered smart career recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
