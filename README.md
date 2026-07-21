@@ -1,14 +1,14 @@
 # AI Resume Analyzer & Template Generator
 
-An AI-powered Resume Analyzer and Resume Builder that helps users create ATS-friendly resumes, analyze resume quality, generate professional resume templates, and receive AI-driven suggestions to improve their chances of passing Applicant Tracking Systems (ATS).
+An AI-powered Resume Analyzer and Resume Builder that helps users build ATS-friendly resumes, analyze uploaded resumes, receive AI-powered suggestions, and generate professional resume templates.
 
 ---
 
-## 🌐 Live Demo
+# Live Demo
 
 **Frontend:** https://ai-resume-analyzer-template-generat.vercel.app/
 
-> **Backend Status:** 🚧 Backend deployment is currently in progress. The live demo showcases the frontend UI. AI resume analysis, authentication, database connectivity, and other server-side features will be available after backend deployment.
+> Backend deployment is currently in progress. Frontend is live. AI analysis, authentication, database, and resume parsing will be available after backend deployment.
 
 ---
 
@@ -16,19 +16,20 @@ An AI-powered Resume Analyzer and Resume Builder that helps users create ATS-fri
 
 - 🤖 AI Resume Analysis
 - 📊 ATS Score Calculation
-- 💡 AI Suggestions to Improve ATS Score
-- 📄 Resume Template Generator
-- 📂 Resume Upload (PDF/DOCX)
+- 💡 AI Resume Suggestions
+- 📄 Resume Builder
+- 🎨 Multiple Resume Templates
+- 📂 Upload Resume (PDF/DOCX)
+- 🔍 Resume Parsing
 - 📈 Resume Strength & Weakness Analysis
-- 🔍 Keyword Analysis
 - 🧠 Missing Skills Detection
-- 📋 Resume Preview
-- 📥 Download Resume
-- 👤 User Authentication
-- 📊 Dashboard
+- 🎯 Keyword Matching
+- 📋 Live Resume Preview
+- 📥 PDF Resume Download
+- 👤 User Authentication (JWT)
 - 📁 Resume History
-- 📱 Fully Responsive Design
-- 🌙 Dark & Light Theme
+- 🌙 Dark / Light Mode
+- 📱 Fully Responsive UI
 
 ---
 
@@ -36,73 +37,75 @@ An AI-powered Resume Analyzer and Resume Builder that helps users create ATS-fri
 
 ## Frontend
 
-- React.js
+- React 18
 - TypeScript
 - Vite
 - Tailwind CSS
 - React Router
 - Framer Motion
+- Recharts
 
 ## Backend
 
-- Node.js
-- Express.js
+- Python
+- FastAPI
+- Uvicorn
+- Pydantic
+- JWT Authentication
 
 ## Database
 
 - MongoDB Atlas
 
-## AI Technologies
+## AI & NLP
 
 - Google Gemini API
-- OpenAI API
-- NLP-based Resume Parsing
+- TF-IDF Vectorizer
+- Cosine Similarity
+- Resume Parsing
 - ATS Scoring Engine
+- NLP Keyword Extraction
 
 ---
 
-# Project Structure
+# Folder Structure
 
 ```text
-AI_RESUME_ANALYZER/
+AI-Resume-Analyzer-Template-Generator/
 
-│── src/
-│   ├── server/
-│   ├── App.tsx
-│   ├── main.tsx
-│   ├── index.css
-│
-│── .env
-│── .env.example
-│── best_model.json
-│── db.json
-│── metadata.json
-│── index.html
-│── package.json
-│── package-lock.json
-│── server.js
-│── server.ts
-│── tsconfig.json
-│── vite.config.ts
-│── README.md
+backend/
+├── routes/
+├── models/
+├── config.py
+├── main.py
+├── requirements.txt
+
+client/
+├── src/
+├── public/
+├── package.json
+
+README.md
+render.yaml
 ```
 
 ---
 
 # Environment Variables
 
-Create a `.env` file in the project root.
+Create a `.env` file.
 
 ```env
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-OPENAI_API_KEY=YOUR_OPENAI_API_KEY
-JWT_SECRET=YOUR_JWT_SECRET
-MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
-PORT=5000
-VITE_API_URL=http://localhost:5000
-```
+MONGODB_URI=your_mongodb_uri
 
-> **Note:** Never commit your actual API keys, JWT secret, or MongoDB credentials to GitHub. Replace the placeholder values with your own credentials before running the project.
+JWT_SECRET=your_secret
+
+GEMINI_API_KEY=your_gemini_api_key
+
+PORT=8000
+
+VITE_API_URL=http://localhost:8000
+```
 
 ---
 
@@ -114,156 +117,104 @@ Clone the repository
 git clone https://github.com/harshithperumalla/AI-Resume-Analyzer-Template-Generator.git
 ```
 
-Move into the project
-
 ```bash
 cd AI-Resume-Analyzer-Template-Generator
 ```
 
-Install dependencies
-
-```bash
-npm install
-```
-
 ---
 
-# Running the Project
-
-Start the development server
+# Frontend
 
 ```bash
+cd client
+npm install
 npm run dev
 ```
 
-Frontend
+Runs on
 
 ```
 http://localhost:3000
 ```
 
-Backend *(After Deployment / Local Setup)*
+---
+
+# Backend
+
+```bash
+cd backend
+
+pip install -r requirements.txt
+
+python -m uvicorn main:app --reload
+```
+
+Runs on
 
 ```
-http://localhost:5000
+http://localhost:8000
 ```
 
 ---
 
-# Build Project
+# AI Resume Analysis
 
-```bash
-npm run build
-```
+The analyzer provides:
 
----
-
-# Preview Production Build
-
-```bash
-npm run preview
-```
-
----
-
-# Available Scripts
-
-Start development server
-
-```bash
-npm run dev
-```
-
-Build production version
-
-```bash
-npm run build
-```
-
-Preview production build
-
-```bash
-npm run preview
-```
-
----
-
-# AI Resume Analyzer
-
-The AI Resume Analyzer provides:
-
-- ATS Score (0–100)
-- Resume Quality Analysis
-- AI-Based Improvement Suggestions
-- Missing Keywords Detection
-- Skills Analysis
-- Resume Strengths & Weaknesses
-- Resume Compatibility Check
-- Section-wise Score
-- Professional Recruiter Feedback
+- ATS Score
+- Resume Category Prediction
+- Resume Strengths
+- Resume Weaknesses
+- Missing Skills
+- Missing Keywords
+- Keyword Density
+- Resume Formatting Analysis
+- Section Analysis
+- Improvement Suggestions
 
 ---
 
 # Resume Builder
 
-- Professional Resume Templates
 - Live Resume Preview
-- Multiple Resume Sections
+- ATS-Friendly Templates
+- Multiple Themes
+- PDF Download
+- Resume History
 - Modern UI
-- Download Resume
-- ATS-Friendly Design
 
 ---
 
-# Future Enhancements
+# Upcoming Features
 
 - Job Description Matching
+- AI Resume Rewrite
 - Cover Letter Generator
 - LinkedIn Profile Analyzer
-- AI Resume Rewrite
-- Interview Question Generator
+- Interview Preparation
 - Portfolio Generator
 - Skill Gap Analysis
-- Salary Prediction
-- Multi-language Resume Support
 
 ---
 
 # Deployment
 
 | Service | Status |
-|---------|--------|
+|----------|--------|
 | Frontend (Vercel) | ✅ Live |
-| Backend API | 🚧 Deploying Soon |
-| MongoDB Atlas | 🚧 Integration in Progress |
-| AI Services | 🚧 Coming Soon |
-
----
-
-# Contributing
-
-Contributions, suggestions, and feature requests are welcome.
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
-
----
-
-# License
-
-This project is licensed under the MIT License.
+| Backend (Render) | 🚧 Deploying |
+| MongoDB Atlas | 🚧 Configuring |
+| Gemini API | 🚧 Integration |
 
 ---
 
 # Author
 
-**Harshith Perumalla**
+## Harshith Perumalla
 
-GitHub: https://github.com/harshithperumalla
+GitHub:
+https://github.com/harshithperumalla
 
 ---
 
-⭐ If you found this project helpful, consider giving it a **Star** on GitHub!
+⭐ If you like this project, please give it a Star.
