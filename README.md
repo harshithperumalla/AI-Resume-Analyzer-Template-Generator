@@ -6,9 +6,9 @@ An AI-powered Resume Analyzer and Resume Builder that helps users build ATS-frie
 
 # Live Demo
 
-**Frontend:** https://ai-resume-analyzer-template-generat.vercel.app/
+**Frontend:**Frontend:** 🚧 Coming Soon
 
-> Backend deployment is currently in progress. Frontend is live. AI analysis, authentication, database, and resume parsing will be available after backend deployment.
+> Backend deployment is currently in progress. 
 
 ---
 
