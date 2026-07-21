@@ -1,0 +1,2297 @@
+{
+  "users": [
+    {
+      "id": "usr-epap1gdlwc8q",
+      "name": "harshith",
+      "email": "harshith07@gmail.com",
+      "passwordHash": "harshith",
+      "createdAt": "2026-07-21T13:28:39.840479"
+    },
+    {
+      "id": "usr-vermfvtw6afy",
+      "name": "Test Candidate",
+      "email": "test.ui@aistudio.com",
+      "passwordHash": "password123",
+      "createdAt": "2026-07-21T16:14:35.730888"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "customization": {
+        "fontFamily": "sans",
+        "fontSize": "base",
+        "colorTheme": "#1e293b",
+        "margins": "normal",
+        "lineSpacing": "normal",
+        "showIcons": true,
+        "sectionOrder": [
+          "personalInfo",
+          "experience",
+          "projects",
+          "education",
+          "skills",
+          "certifications",
+          "languages"
+        ]
+      },
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "jndnc",
+          "phone": "2026071207172",
+          "location": "india",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developerharsh"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "atsScore": 38,
+      "lastAnalysis": {
+        "matchScore": 13,
+        "atsScore": 38,
+        "category": "Software Engineering",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [
+          "Problem Solving"
+        ],
+        "missingSkills": [
+          "SQL",
+          "Microservices",
+          "React",
+          "Javascript",
+          "Python",
+          "Node.Js"
+        ],
+        "recommendedSkills": [
+          "Postgresql",
+          "Mongodb",
+          "Scikit-Learn",
+          "GCP",
+          "Javascript"
+        ],
+        "keywordMatchPercentage": 16,
+        "suggestions": [
+          "Incorporate missing target keywords: SQL, Microservices, React, Javascript.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: SQL, Microservices, React.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 16,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 38,
+          "format": 50
+        }
+      },
+      "createdAt": "2026-07-21T15:31:58.902792",
+      "updatedAt": "2026-07-21T15:58:01.188214"
+    },
+    {
+      "id": "res-1ahc6qnknwlj",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "customization": {
+        "fontFamily": "sans",
+        "fontSize": "base",
+        "colorTheme": "#1e293b",
+        "margins": "normal",
+        "lineSpacing": "normal",
+        "showIcons": true,
+        "sectionOrder": [
+          "personalInfo",
+          "experience",
+          "projects",
+          "education",
+          "skills",
+          "certifications",
+          "languages"
+        ]
+      },
+      "data": {
+        "personalInfo": {
+          "fullName": "%PDF-1.5",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "atsScore": 38,
+      "lastAnalysis": {
+        "matchScore": 13,
+        "atsScore": 38,
+        "category": "Software Engineering",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [
+          "Problem Solving"
+        ],
+        "missingSkills": [
+          "SQL",
+          "Microservices",
+          "React",
+          "Javascript",
+          "Python",
+          "Node.Js"
+        ],
+        "recommendedSkills": [
+          "Postgresql",
+          "Mongodb",
+          "Scikit-Learn",
+          "GCP",
+          "Javascript"
+        ],
+        "keywordMatchPercentage": 16,
+        "suggestions": [
+          "Incorporate missing target keywords: SQL, Microservices, React, Javascript.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: SQL, Microservices, React.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 16,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 38,
+          "format": 50
+        }
+      },
+      "createdAt": "2026-07-21T15:37:52.409274",
+      "updatedAt": "2026-07-21T16:05:16.582000"
+    },
+    {
+      "id": "res-jvtjtowss9u7",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "customization": {
+        "fontFamily": "sans",
+        "fontSize": "base",
+        "colorTheme": "#1e293b",
+        "margins": "normal",
+        "lineSpacing": "normal",
+        "showIcons": true,
+        "sectionOrder": [
+          "personalInfo",
+          "experience",
+          "projects",
+          "education",
+          "skills",
+          "certifications",
+          "languages"
+        ]
+      },
+      "data": {
+        "personalInfo": {
+          "fullName": "%PDF-1.5hg",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "atsScore": 38,
+      "lastAnalysis": {
+        "matchScore": 13,
+        "atsScore": 38,
+        "category": "Software Engineering",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [
+          "Problem Solving"
+        ],
+        "missingSkills": [
+          "SQL",
+          "Javascript",
+          "Python",
+          "React",
+          "Node.Js",
+          "Microservices"
+        ],
+        "recommendedSkills": [
+          "Bootstrap",
+          "PHP",
+          "Numpy",
+          "Javascript",
+          "Kubernetes"
+        ],
+        "keywordMatchPercentage": 16,
+        "suggestions": [
+          "Incorporate missing target keywords: SQL, Javascript, Python, React.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: SQL, Javascript, Python.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 16,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 38,
+          "format": 50
+        }
+      },
+      "createdAt": "2026-07-21T15:55:00.930983",
+      "updatedAt": "2026-07-21T16:03:38.240025"
+    },
+    {
+      "id": "res-r0us4zs764pj",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "customization": {
+        "fontFamily": "sans",
+        "fontSize": "base",
+        "colorTheme": "#1e293b",
+        "margins": "normal",
+        "lineSpacing": "normal",
+        "showIcons": true,
+        "sectionOrder": [
+          "personalInfo",
+          "experience",
+          "projects",
+          "education",
+          "skills",
+          "certifications",
+          "languages"
+        ]
+      },
+      "data": {
+        "personalInfo": {
+          "fullName": "%PDF-1.5",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "atsScore": 36,
+      "lastAnalysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Software Engineering",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [
+          "Problem Solving"
+        ],
+        "missingSkills": [
+          "Node.Js",
+          "SQL",
+          "Javascript",
+          "React",
+          "Microservices",
+          "Python"
+        ],
+        "matchedKeywords": [
+          "Problem Solving"
+        ],
+        "missingKeywords": [
+          "NODE",
+          "JAVASCRIPT",
+          "JS",
+          "ENGINEER DEVELOPER",
+          "VERSION",
+          "SQL",
+          "SQL REST",
+          "UNIT"
+        ],
+        "recommendedSkills": [
+          "Kubernetes",
+          "Rest Api",
+          "NLP",
+          "SQL",
+          "Pytorch"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: NODE, JAVASCRIPT, JS, ENGINEER DEVELOPER.",
+          "Quantify your work accomplishments using percentage results, metrics, or dollar values.",
+          "Start accomplishment bullets with high-impact action verbs (e.g. Architected, Spearheaded, Engineered).",
+          "Align your technical experience section more closely with target job requirements."
+        ],
+        "pros": [
+          "Strong match for core job terms: Problem Solving.",
+          "Verified relevant academic degree background."
+        ],
+        "cons": [
+          "Missing essential target terms: NODE, JAVASCRIPT, JS.",
+          "Work experience bullets lack numerical metric metrics."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "createdAt": "2026-07-21T16:05:09.871957",
+      "updatedAt": "2026-07-21T16:05:09.871957"
+    },
+    {
+      "id": "res-t08744bmvhzt",
+      "userId": "usr-vermfvtw6afy",
+      "title": "Senior Full Stack Engineer",
+      "templateId": "template-software",
+      "customization": {
+        "fontFamily": "sans",
+        "fontSize": "base",
+        "colorTheme": "#1e293b",
+        "margins": "normal",
+        "lineSpacing": "normal",
+        "showIcons": true,
+        "sectionOrder": [
+          "personalInfo",
+          "experience",
+          "projects",
+          "education",
+          "skills",
+          "certifications",
+          "languages"
+        ]
+      },
+      "data": {
+        "personalInfo": {
+          "fullName": "Elena Vance",
+          "email": "elena@tech.io",
+          "phone": "+1 555 0192",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "",
+          "title": "Senior Full Stack Engineer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Tech Corp",
+            "position": "Senior Software Engineer",
+            "location": "San Francisco",
+            "startDate": "2021",
+            "endDate": "Present",
+            "current": false,
+            "description": "Architected microservices handling 2M active users. Reduced latency by 35%."
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "React",
+            "TypeScript",
+            "Node.js",
+            "FastAPI",
+            "PostgreSQL",
+            "Docker"
+          ],
+          "soft": []
+        },
+        "certifications": [],
+        "languages": [],
+        "interests": []
+      },
+      "atsScore": 42,
+      "lastAnalysis": {
+        "matchScore": 34,
+        "atsScore": 42,
+        "strengthScore": 36,
+        "grammarScore": 75,
+        "readabilityScore": 78,
+        "category": "Web Development",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [
+          "Javascript",
+          "React",
+          "Microservices",
+          "Node.Js"
+        ],
+        "missingSkills": [
+          "SQL",
+          "Python",
+          "Problem Solving"
+        ],
+        "matchedKeywords": [
+          "JAVASCRIPT",
+          "NODE",
+          "JS",
+          "SQL"
+        ],
+        "missingKeywords": [
+          "SKILLED JAVASCRIPT",
+          "VERSION CONTROL",
+          "VERSION",
+          "UNIT TESTING",
+          "SKILLED",
+          "SOLVING",
+          "SQL REST",
+          "JAVASCRIPT REACT"
+        ],
+        "missingActionVerbs": [
+          "Optimized",
+          "Spearheaded",
+          "Automated",
+          "Orchestrated"
+        ],
+        "recommendedSkills": [
+          "Numpy",
+          "Deep Learning",
+          "NLP",
+          "C#",
+          "Graphql"
+        ],
+        "recommendedCertifications": [
+          "AWS Certified Developer",
+          "Meta Frontend Professional",
+          "MongoDB Certified Developer"
+        ],
+        "recommendedProjects": [
+          "Microservices E-Commerce Gateway",
+          "Real-Time Collaborative Canvas"
+        ],
+        "summaryFeedback": "Missing an explicit Summary/Profile section at the top of the resume.",
+        "keywordMatchPercentage": 23,
+        "suggestions": [
+          "Incorporate missing target keywords: SKILLED JAVASCRIPT, VERSION CONTROL, VERSION, UNIT TESTING.",
+          "Quantify your work accomplishments using percentage results, metrics, or dollar values.",
+          "Start accomplishment bullets with high-impact action verbs (e.g. Architected, Spearheaded, Engineered).",
+          "Align your technical experience section more closely with target job requirements."
+        ],
+        "pros": [
+          "Strong match for core job terms: JAVASCRIPT, NODE, JS."
+        ],
+        "cons": [
+          "Missing essential target terms: SKILLED JAVASCRIPT, VERSION CONTROL, VERSION.",
+          "Work experience bullets lack numerical metrics."
+        ],
+        "scoringBreakdown": {
+          "skills": 23,
+          "experience": 95,
+          "projects": 45,
+          "education": 40,
+          "certifications": 40,
+          "ats": 42,
+          "format": 50
+        }
+      },
+      "createdAt": "2026-07-21T16:14:43.765983",
+      "updatedAt": "2026-07-21T16:14:43.765983"
+    },
+    {
+      "id": "res-aw3f2o9z3qji",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "My Professional Resume",
+      "templateId": "template-creative",
+      "customization": {
+        "fontFamily": "sans",
+        "fontSize": "base",
+        "colorTheme": "#1e293b",
+        "margins": "normal",
+        "lineSpacing": "normal",
+        "showIcons": true,
+        "sectionOrder": [
+          "personalInfo",
+          "experience",
+          "projects",
+          "education",
+          "skills",
+          "certifications",
+          "languages"
+        ]
+      },
+      "data": {
+        "personalInfo": {
+          "fullName": "harshith perumalla",
+          "email": "email@example.com",
+          "phone": "",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "",
+          "title": ""
+        },
+        "education": [],
+        "experience": [],
+        "projects": [],
+        "skills": {
+          "technical": [],
+          "soft": []
+        },
+        "certifications": [],
+        "languages": [],
+        "interests": []
+      },
+      "atsScore": 22,
+      "lastAnalysis": {
+        "matchScore": 10,
+        "atsScore": 22,
+        "strengthScore": 27,
+        "grammarScore": 75,
+        "readabilityScore": 78,
+        "category": "Web Development",
+        "experienceLevel": "Entry-Level",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Javascript",
+          "React",
+          "Node.Js",
+          "Microservices",
+          "SQL",
+          "Python",
+          "Problem Solving"
+        ],
+        "matchedKeywords": [],
+        "missingKeywords": [
+          "NODE",
+          "JS",
+          "JAVASCRIPT",
+          "VERSION",
+          "TESTING MICROSERVICES",
+          "TESTING",
+          "UNIT TESTING",
+          "UNIT"
+        ],
+        "missingActionVerbs": [
+          "Optimized",
+          "Spearheaded",
+          "Automated",
+          "Orchestrated"
+        ],
+        "recommendedSkills": [
+          "Numpy",
+          "Deep Learning",
+          "NLP",
+          "Node.Js",
+          "C#"
+        ],
+        "recommendedCertifications": [
+          "AWS Certified Developer",
+          "Meta Frontend Professional",
+          "MongoDB Certified Developer"
+        ],
+        "recommendedProjects": [
+          "Microservices E-Commerce Gateway",
+          "Real-Time Collaborative Canvas"
+        ],
+        "summaryFeedback": "Missing an explicit Summary/Profile section at the top of the resume.",
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: NODE, JS, JAVASCRIPT, VERSION.",
+          "Quantify your work accomplishments using percentage results, metrics, or dollar values.",
+          "Start accomplishment bullets with high-impact action verbs (e.g. Architected, Spearheaded, Engineered).",
+          "Align your technical experience section more closely with target job requirements."
+        ],
+        "pros": [],
+        "cons": [
+          "Missing essential target terms: NODE, JS, JAVASCRIPT.",
+          "Work experience bullets lack numerical metrics."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 35,
+          "projects": 45,
+          "education": 40,
+          "certifications": 40,
+          "ats": 22,
+          "format": 50
+        }
+      },
+      "createdAt": "2026-07-21T16:16:56.047450",
+      "updatedAt": "2026-07-21T16:24:30.645781"
+    }
+  ],
+  "history": [
+    {
+      "id": "his-3l8ftn26nznr",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:37:27.265068",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "%PDF-1.5",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      }
+    },
+    {
+      "id": "his-p4y1l40jgx86",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:37:27.735789",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Data Science & AI",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Deep Learning",
+          "Scikit-Learn",
+          "Machine Learning",
+          "Tensorflow",
+          "Python",
+          "Pytorch",
+          "NLP"
+        ],
+        "recommendedSkills": [
+          "Postgresql",
+          "Mongodb",
+          "Scikit-Learn",
+          "GCP",
+          "Javascript"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: Deep Learning, Scikit-Learn, Machine Learning, Tensorflow.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: Deep Learning, Scikit-Learn, Machine Learning.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    },
+    {
+      "id": "his-rrcf8n2nog19",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:37:34.073022",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      }
+    },
+    {
+      "id": "his-kpf6l90zbi9g",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:37:34.380159",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developerharsh"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Data Science & AI",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Deep Learning",
+          "Scikit-Learn",
+          "Machine Learning",
+          "Tensorflow",
+          "Python",
+          "Pytorch",
+          "NLP"
+        ],
+        "recommendedSkills": [
+          "Postgresql",
+          "Mongodb",
+          "Scikit-Learn",
+          "GCP",
+          "Javascript"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: Deep Learning, Scikit-Learn, Machine Learning, Tensorflow.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: Deep Learning, Scikit-Learn, Machine Learning.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    },
+    {
+      "id": "his-qkb4al0frboe",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:37:36.994312",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developerharsh"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      }
+    },
+    {
+      "id": "his-5283453ukuzh",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:37:37.140375",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "jndnc",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developerharsh"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Data Science & AI",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Deep Learning",
+          "Scikit-Learn",
+          "Machine Learning",
+          "Tensorflow",
+          "Python",
+          "Pytorch",
+          "NLP"
+        ],
+        "recommendedSkills": [
+          "Postgresql",
+          "Mongodb",
+          "Scikit-Learn",
+          "GCP",
+          "Javascript"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: Deep Learning, Scikit-Learn, Machine Learning, Tensorflow.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: Deep Learning, Scikit-Learn, Machine Learning.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    },
+    {
+      "id": "his-pfb619kpi3s6",
+      "resumeId": "res-1ahc6qnknwlj",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:40:26.517670",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "%PDF-1.5",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Data Science & AI",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Deep Learning",
+          "Scikit-Learn",
+          "Machine Learning",
+          "Tensorflow",
+          "Python",
+          "Pytorch",
+          "NLP"
+        ],
+        "recommendedSkills": [
+          "Postgresql",
+          "Mongodb",
+          "Scikit-Learn",
+          "GCP",
+          "Javascript"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: Deep Learning, Scikit-Learn, Machine Learning, Tensorflow.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: Deep Learning, Scikit-Learn, Machine Learning.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    },
+    {
+      "id": "his-eprnftfxykw4",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:56:19.067451",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "jndnc",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developerharsh"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Data Science & AI",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Pytorch",
+          "NLP",
+          "Python",
+          "Machine Learning",
+          "Deep Learning",
+          "Tensorflow",
+          "Scikit-Learn"
+        ],
+        "recommendedSkills": [
+          "Bootstrap",
+          "PHP",
+          "Numpy",
+          "Javascript",
+          "Kubernetes"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: Pytorch, NLP, Python, Machine Learning.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: Pytorch, NLP, Python.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    },
+    {
+      "id": "his-n40d2nopvjwo",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:58:00.646667",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "jndnc",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developerharsh"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      }
+    },
+    {
+      "id": "his-k58zwie947ya",
+      "resumeId": "res-nwvttslrnh1g",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T15:58:01.130209",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshih",
+          "email": "jndnc",
+          "phone": "2026071207172",
+          "location": "india",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developerharsh"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Data Science & AI",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Pytorch",
+          "NLP",
+          "Python",
+          "Machine Learning",
+          "Deep Learning",
+          "Tensorflow",
+          "Scikit-Learn"
+        ],
+        "recommendedSkills": [
+          "Bootstrap",
+          "PHP",
+          "Numpy",
+          "Javascript",
+          "Kubernetes"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: Pytorch, NLP, Python, Machine Learning.",
+          "Increase exact technical phrase matching with the job posting requirements.",
+          "Ensure standard section titles (Summary, Experience, Skills, Education, Projects) for parser compatibility."
+        ],
+        "pros": [
+          "Strong core technical keyword alignment detected.",
+          "Clear professional work history formatting.",
+          "Relevant education background listed."
+        ],
+        "cons": [
+          "Missing key job requirements: Pytorch, NLP, Python.",
+          "Low direct match with job description skill set."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    },
+    {
+      "id": "his-fzai2t748imv",
+      "resumeId": "res-jvtjtowss9u7",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T16:03:37.619543",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "%PDF-1.5",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      }
+    },
+    {
+      "id": "his-w8vqwg0r23fx",
+      "resumeId": "res-jvtjtowss9u7",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T16:03:38.195330",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "%PDF-1.5hg",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Data Science & AI",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Machine Learning",
+          "NLP",
+          "Tensorflow",
+          "Pytorch",
+          "Deep Learning",
+          "Python",
+          "Scikit-Learn"
+        ],
+        "matchedKeywords": [],
+        "missingKeywords": [
+          "LEARNING",
+          "MACHINE",
+          "MACHINE LEARNING",
+          "TUNING",
+          "TUNING TRAINING",
+          "TENSORFLOW",
+          "ENGINEER REQUIRED",
+          "DEEP"
+        ],
+        "recommendedSkills": [
+          "Kubernetes",
+          "Rest Api",
+          "NLP",
+          "SQL",
+          "Pytorch"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: LEARNING, MACHINE, MACHINE LEARNING, TUNING.",
+          "Quantify your work accomplishments using percentage results, metrics, or dollar values.",
+          "Start accomplishment bullets with high-impact action verbs (e.g. Architected, Spearheaded, Engineered).",
+          "Align your technical experience section more closely with target job requirements."
+        ],
+        "pros": [
+          "Verified relevant academic degree background."
+        ],
+        "cons": [
+          "Missing essential target terms: LEARNING, MACHINE, MACHINE LEARNING.",
+          "Work experience bullets lack numerical metric metrics."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    },
+    {
+      "id": "his-8a4pdw7i9niz",
+      "resumeId": "res-1ahc6qnknwlj",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T16:05:16.510081",
+      "title": "Imported - P",
+      "templateId": "template-software",
+      "data": {
+        "personalInfo": {
+          "fullName": "%PDF-1.5",
+          "email": "",
+          "phone": "2026071207172",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "%",
+          "title": "Software Developer"
+        },
+        "education": [],
+        "experience": [
+          {
+            "id": "exp-1",
+            "company": "Professional Experience",
+            "position": "Software Engineer",
+            "location": "",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "current": true,
+            "description": "%PDF-1.5\n%\n3 0 obj\n<< /Linearized 1 /L 87870 /H [ 1228 162 ] /O 7 /E 87275 /N 1 /T 87586 >>\nendobj\n                                                                                                                \n4 0 obj\n<< /Type /XRef /Length 90 /Filter /FlateDecode /DecodeParms << /Columns 5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 3 82 ] /Info 1 0 R /Root 5 0 R /Size 85 /Prev 87587                 /ID [<31f9f2de8b7397297fc700bad53ffba4><518338574b50f8fee5e700d08adfa566>] >>\nstream\nxcbd`g`b``8\t\"Y"
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "technical": [
+            "C#"
+          ],
+          "soft": [
+            "Communication",
+            "Problem Solving",
+            "Team Leadership",
+            "Agile Methodologies"
+          ]
+        },
+        "certifications": [],
+        "languages": [
+          {
+            "id": "lang-1",
+            "name": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 36,
+        "category": "Data Science & AI",
+        "experienceLevel": "Senior (5+ Years)",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Machine Learning",
+          "NLP",
+          "Tensorflow",
+          "Pytorch",
+          "Deep Learning",
+          "Python",
+          "Scikit-Learn"
+        ],
+        "matchedKeywords": [],
+        "missingKeywords": [
+          "LEARNING",
+          "MACHINE",
+          "MACHINE LEARNING",
+          "TUNING TRAINING",
+          "LOOKING",
+          "DEEP LEARNING",
+          "LEARN",
+          "LEARN TENSORFLOW"
+        ],
+        "recommendedSkills": [
+          "Kubernetes",
+          "Rest Api",
+          "NLP",
+          "SQL",
+          "Pytorch"
+        ],
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: LEARNING, MACHINE, MACHINE LEARNING, TUNING TRAINING.",
+          "Quantify your work accomplishments using percentage results, metrics, or dollar values.",
+          "Start accomplishment bullets with high-impact action verbs (e.g. Architected, Spearheaded, Engineered).",
+          "Align your technical experience section more closely with target job requirements."
+        ],
+        "pros": [
+          "Verified relevant academic degree background."
+        ],
+        "cons": [
+          "Missing essential target terms: LEARNING, MACHINE, MACHINE LEARNING.",
+          "Work experience bullets lack numerical metric metrics."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 95,
+          "projects": 45,
+          "education": 90,
+          "certifications": 40,
+          "ats": 36,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    },
+    {
+      "id": "his-e5mulz27gapl",
+      "resumeId": "res-aw3f2o9z3qji",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T16:24:30.268979",
+      "title": "My Professional Resume",
+      "templateId": "template-creative",
+      "data": {
+        "personalInfo": {
+          "fullName": "Firstname Lastname",
+          "email": "email@example.com",
+          "phone": "",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "",
+          "title": ""
+        },
+        "education": [],
+        "experience": [],
+        "projects": [],
+        "skills": {
+          "technical": [],
+          "soft": []
+        },
+        "certifications": [],
+        "languages": [],
+        "interests": []
+      }
+    },
+    {
+      "id": "his-5mtnifsvoqj6",
+      "resumeId": "res-aw3f2o9z3qji",
+      "userId": "usr-epap1gdlwc8q",
+      "timestamp": "2026-07-21T16:24:30.597352",
+      "title": "My Professional Resume",
+      "templateId": "template-creative",
+      "data": {
+        "personalInfo": {
+          "fullName": "harshith perumalla",
+          "email": "email@example.com",
+          "phone": "",
+          "location": "",
+          "website": "",
+          "github": "",
+          "linkedin": "",
+          "summary": "",
+          "title": ""
+        },
+        "education": [],
+        "experience": [],
+        "projects": [],
+        "skills": {
+          "technical": [],
+          "soft": []
+        },
+        "certifications": [],
+        "languages": [],
+        "interests": []
+      },
+      "analysis": {
+        "matchScore": 10,
+        "atsScore": 22,
+        "strengthScore": 27,
+        "grammarScore": 75,
+        "readabilityScore": 78,
+        "category": "Data Science & AI",
+        "experienceLevel": "Entry-Level",
+        "matchingSkills": [],
+        "missingSkills": [
+          "Tensorflow",
+          "Deep Learning",
+          "Pytorch",
+          "NLP",
+          "Scikit-Learn",
+          "Python",
+          "Machine Learning"
+        ],
+        "matchedKeywords": [],
+        "missingKeywords": [
+          "LEARNING",
+          "MACHINE LEARNING",
+          "MACHINE",
+          "TRAINING ML",
+          "TUNING TRAINING",
+          "TUNING",
+          "SKILLS PYTHON",
+          "SKILLS"
+        ],
+        "missingActionVerbs": [
+          "Optimized",
+          "Spearheaded",
+          "Automated",
+          "Orchestrated"
+        ],
+        "recommendedSkills": [
+          "Numpy",
+          "Deep Learning",
+          "NLP",
+          "Node.Js",
+          "C#"
+        ],
+        "recommendedCertifications": [
+          "AWS Machine Learning Specialty",
+          "Google Professional Data Engineer",
+          "TensorFlow Developer"
+        ],
+        "recommendedProjects": [
+          "RAG Multi-Document QA Agent",
+          "Computer Vision Defect Detector"
+        ],
+        "summaryFeedback": "Missing an explicit Summary/Profile section at the top of the resume.",
+        "keywordMatchPercentage": 10,
+        "suggestions": [
+          "Incorporate missing target keywords: LEARNING, MACHINE LEARNING, MACHINE, TRAINING ML.",
+          "Quantify your work accomplishments using percentage results, metrics, or dollar values.",
+          "Start accomplishment bullets with high-impact action verbs (e.g. Architected, Spearheaded, Engineered).",
+          "Align your technical experience section more closely with target job requirements."
+        ],
+        "pros": [],
+        "cons": [
+          "Missing essential target terms: LEARNING, MACHINE LEARNING, MACHINE.",
+          "Work experience bullets lack numerical metrics."
+        ],
+        "scoringBreakdown": {
+          "skills": 10,
+          "experience": 35,
+          "projects": 45,
+          "education": 40,
+          "certifications": 40,
+          "ats": 22,
+          "format": 50
+        }
+      },
+      "jobTitle": "Target Role"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-6jjqwz5leg0e",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Software Engineer. Required skills: Java, Python, C++, clean code, microservices, Docker, Kubernetes, system architecture, SQL databases, and algorithms.",
+      "createdAt": "2026-07-21T13:38:29.582388"
+    },
+    {
+      "id": "job-bpwvlumnyvdp",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Software Engineer. Required skills: Java, Python, C++, clean code, microservices, Docker, Kubernetes, system architecture, SQL databases, and algorithms.",
+      "createdAt": "2026-07-21T13:45:03.663485"
+    },
+    {
+      "id": "job-nnffegcx8pyv",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T13:45:58.287918"
+    },
+    {
+      "id": "job-5epa4b3fyy11",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Software Engineer. Required skills: Java, Python, C++, clean code, microservices, Docker, Kubernetes, system architecture, SQL databases, and algorithms.",
+      "createdAt": "2026-07-21T13:52:32.342634"
+    },
+    {
+      "id": "job-yqgz8j0y7ll9",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T14:00:01.235529"
+    },
+    {
+      "id": "job-obwf2qu68ojc",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T14:47:42.200221"
+    },
+    {
+      "id": "job-rxyg93po049q",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Software Engineer. Required skills: Java, Python, C++, clean code, microservices, Docker, Kubernetes, system architecture, SQL databases, and algorithms.",
+      "createdAt": "2026-07-21T14:48:17.970133"
+    },
+    {
+      "id": "job-ep39gupfvbig",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Software Engineer. Required skills: Java, Python, C++, clean code, microservices, Docker, Kubernetes, system architecture, SQL databases, and algorithms.",
+      "createdAt": "2026-07-21T14:49:39.250627"
+    },
+    {
+      "id": "job-6jjdnj3056x9",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Web Developer. Required skills: JavaScript, React, HTML5, CSS3, Tailwind CSS, Vite, Node.js, Express, and state management. Experience building web pages, responsive frontends, and REST APIs.",
+      "createdAt": "2026-07-21T14:49:55.251467"
+    },
+    {
+      "id": "job-nd5of6uesid3",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Software Engineer. Required skills: Java, Python, C++, clean code, microservices, Docker, Kubernetes, system architecture, SQL databases, and algorithms.",
+      "createdAt": "2026-07-21T14:50:00.408675"
+    },
+    {
+      "id": "job-z2kkhvqbxg5e",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Software Engineer. Required skills: Java, Python, C++, clean code, microservices, Docker, Kubernetes, system architecture, SQL databases, and algorithms.",
+      "createdAt": "2026-07-21T15:09:55.765584"
+    },
+    {
+      "id": "job-dew803tgruw4",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Web Developer. Required skills: JavaScript, React, HTML5, CSS3, Tailwind CSS, Vite, Node.js, Express, and state management. Experience building web pages, responsive frontends, and REST APIs.",
+      "createdAt": "2026-07-21T15:10:43.232282"
+    },
+    {
+      "id": "job-92nb09244sal",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:10:46.599258"
+    },
+    {
+      "id": "job-7m7ajlj58dqg",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Analyzed Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Software Engineer. Required skills: Java, Python, C++, clean code, microservices, Docker, Kubernetes, system architecture, SQL databases, and algorithms.",
+      "createdAt": "2026-07-21T15:10:50.323914"
+    },
+    {
+      "id": "job-dzt1xubfvm1u",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:21:58.823642"
+    },
+    {
+      "id": "job-whue11mq3l7j",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:30:53.844526"
+    },
+    {
+      "id": "job-x64s6qduv7sk",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:31:10.639578"
+    },
+    {
+      "id": "job-pjiqa3dcaiek",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:31:15.140284"
+    },
+    {
+      "id": "job-2zojt97acvql",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:31:20.846902"
+    },
+    {
+      "id": "job-qngffzefqp10",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:31:33.040849"
+    },
+    {
+      "id": "job-t1n3pxrnh6pu",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:31:36.911694"
+    },
+    {
+      "id": "job-sliy2qr06kee",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:31:41.632628"
+    },
+    {
+      "id": "job-ocbh2s00nqr1",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:37:27.727372"
+    },
+    {
+      "id": "job-ia5gw3pwawe8",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:37:34.371409"
+    },
+    {
+      "id": "job-gjhtztcmjaao",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:37:37.135296"
+    },
+    {
+      "id": "job-dnxj4qt4dzhn",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:40:26.495637"
+    },
+    {
+      "id": "job-sgl7h059jyx7",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:56:19.054049"
+    },
+    {
+      "id": "job-x5pp8epxiqfd",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T15:58:01.115336"
+    },
+    {
+      "id": "job-ujh2txskkvat",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T16:03:38.180732"
+    },
+    {
+      "id": "job-ky0og4qx8v10",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T16:05:16.487192"
+    },
+    {
+      "id": "job-zrvgvuw0gt1p",
+      "userId": "usr-epap1gdlwc8q",
+      "title": "Target Role",
+      "company": "Target Company",
+      "descriptionText": "We are looking for a Machine Learning Engineer. Required skills: Python, Scikit-Learn, TensorFlow, PyTorch, neural networks, deep learning, NLP, pipelines, model tuning, and training ML models.",
+      "createdAt": "2026-07-21T16:24:30.573312"
+    }
+  ]
+}

@@ -7,11 +7,11 @@ import { spawn } from 'child_process';
 let serverSpawned = false;
 
 export default defineConfig(() => {
-  // Spawn the Express development backend in the background if in dev mode
+  // Spawn the FastAPI development backend in the background if in dev mode
   if (process.env.NODE_ENV !== 'production' && !serverSpawned) {
     serverSpawned = true;
-    console.log('Spawning full-stack Express backend server in background on port 3001...');
-    const proc = spawn('npx', ['tsx', 'server.ts'], {
+    console.log('Spawning full-stack FastAPI Python backend server in background on port 8000...');
+    const proc = spawn('python', ['-m', 'uvicorn', 'backend.main:app', '--reload', '--port', '8000'], {
       stdio: 'inherit',
       shell: true,
       env: { ...process.env, NODE_ENV: 'development' }
@@ -30,14 +30,12 @@ export default defineConfig(() => {
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
-      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
-      // Proxy client API requests to the custom Express server running on port 3001
+      // Proxy client API requests to the Python FastAPI server running on port 8000
       proxy: {
         '/api': {
-          target: 'http://127.0.0.1:3001',
+          target: 'http://127.0.0.1:8000',
           changeOrigin: true,
           secure: false,
         },
