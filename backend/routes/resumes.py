@@ -99,6 +99,7 @@ async def list_resumes(user_id: str = Depends(get_current_user_id)):
     return enriched
 
 @router.post("/parse")
+@router.post("/parse-resume")
 async def parse_resume(body: ParseResumeRequest):
     if not body.fileData or not body.fileName:
         raise HTTPException(

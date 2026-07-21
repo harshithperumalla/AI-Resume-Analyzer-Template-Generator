@@ -360,7 +360,7 @@ export default function App() {
 
       const data = await response.json();
       if (!response.ok) {
-        setAuthError(data.error || 'Authentication failed.');
+        setAuthError(data.detail || data.error || 'Authentication failed.');
         return;
       }
 
@@ -392,7 +392,7 @@ export default function App() {
 
       const data = await response.json();
       if (!response.ok) {
-        setForgotErrorMessage(data.error || 'Request failed.');
+        setForgotErrorMessage(data.detail || data.error || 'Request failed.');
         return;
       }
 
@@ -446,7 +446,7 @@ export default function App() {
 
       const data = await response.json();
       if (!response.ok) {
-        setForgotErrorMessage(data.error || 'Failed to reset password.');
+        setForgotErrorMessage(data.detail || data.error || 'Failed to reset password.');
         return;
       }
 
@@ -792,7 +792,7 @@ export default function App() {
     reader.onload = async () => {
       try {
         const base64Data = (reader.result as string).split(',')[1];
-        const res = await fetch('/api/resumes/parse', {
+        let res = await fetch('/api/resumes/parse', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -801,6 +801,18 @@ export default function App() {
             fileType: file.type
           })
         });
+
+        if (!res.ok) {
+          res = await fetch('/api/parse-resume', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              fileData: base64Data,
+              fileName: file.name,
+              fileType: file.type
+            })
+          });
+        }
 
         const data = await res.json();
         setIsParsingFile(false);
