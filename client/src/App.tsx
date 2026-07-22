@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import React, { useState, useEffect, useRef } from 'react';
 import html2pdf from 'html2pdf.js';
 import {
@@ -47,6 +48,8 @@ const formatLocalTimestamp = (isoString?: string) => {
 };
 
 const generateId = () => Math.random().toString(36).substring(2, 15);
+
+const API_BASE = import.meta.env.VITE_API_URL || 'https://ai-resume-analyzer-template-generator-1.onrender.com';
 
 export default function App() {
   // --- CORE NAV STATE ---
@@ -298,7 +301,7 @@ export default function App() {
       const email = 'demo.recruiter@aistudio.com';
       const password = 'guestPassword123';
 
-      let loginRes = await fetch('/api/auth/login', {
+      let loginRes = await fetch(`${API_BASE}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
@@ -306,7 +309,7 @@ export default function App() {
 
       if (!loginRes.ok) {
         // If demo user does not exist, auto register
-        const regRes = await fetch('/api/auth/register', {
+        const regRes = await fetch(`${API_BASE}/api/auth/register`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name: 'Demo Candidate', email, password })
@@ -348,7 +351,7 @@ export default function App() {
 
     try {
       const endpoint = authMode === 'login' ? '/api/auth/login' : '/api/auth/register';
-      const response = await fetch(endpoint, {
+      const response = await fetch(`${API_BASE}${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -384,7 +387,7 @@ export default function App() {
     }
 
     try {
-      const response = await fetch('/api/auth/forgot-password', {
+      const response = await fetch(`${API_BASE}/api/auth/forgot-password`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: forgotEmail })
@@ -435,7 +438,7 @@ export default function App() {
     }
 
     try {
-      const response = await fetch('/api/auth/reset-password', {
+      const response = await fetch(`${API_BASE}/api/auth/reset-password`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -467,7 +470,7 @@ export default function App() {
 
   const handleLogout = async () => {
     if (token) {
-      await fetch('/api/auth/logout', {
+      await fetch(`${API_BASE}/api/auth/logout`, {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${token}` }
       });
@@ -482,7 +485,7 @@ export default function App() {
   // --- FETCH PERSISTED DATABASE INFO ---
   const fetchDashboardData = async (activeToken: string) => {
     try {
-      const res = await fetch('/api/resumes', {
+      const res = await fetch(`${API_BASE}/api/resumes`, {
         headers: { 'Authorization': `Bearer ${activeToken}` }
       });
       if (res.status === 401) {
@@ -507,7 +510,7 @@ export default function App() {
         setResumes([]);
       }
 
-      const statsRes = await fetch('/api/stats', {
+      const statsRes = await fetch(`${API_BASE}/api/stats`, {
         headers: { 'Authorization': `Bearer ${activeToken}` }
       });
       if (statsRes.ok) {
@@ -522,7 +525,7 @@ export default function App() {
 
   const handleCreateResumeWithData = async (title: string, dataObj: any, selectedTemplateId = 'template-software', activeToken = token, redirectView = 'builder') => {
     try {
-      const response = await fetch('/api/resumes', {
+      const response = await fetch(`${API_BASE}/api/resumes`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -574,7 +577,7 @@ export default function App() {
     saveTimeoutRef.current = setTimeout(async () => {
       if (!token) return;
       try {
-        const response = await fetch(`/api/resumes/${updated.id}`, {
+        const response = await fetch(`${API_BASE}/api/resumes/${updated.id}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -586,7 +589,7 @@ export default function App() {
           const resData = await response.json();
           // If a job description is active, re-calculate ATS score in real time!
           if (jobDescription) {
-            const analyzeRes = await fetch(`/api/resumes/${updated.id}/analyze`, {
+            const analyzeRes = await fetch(`${API_BASE}/api/resumes/${updated.id}/analyze`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
@@ -708,7 +711,7 @@ export default function App() {
       'Are you absolutely sure you want to delete this resume? All backup versions will be removed.',
       async () => {
         try {
-          const response = await fetch(`/api/resumes/${id}`, {
+          const response = await fetch(`${API_BASE}/api/resumes/${id}`, {
             method: 'DELETE',
             headers: { 'Authorization': `Bearer ${token}` }
           });
@@ -792,7 +795,7 @@ export default function App() {
     reader.onload = async () => {
       try {
         const base64Data = (reader.result as string).split(',')[1];
-        let res = await fetch('/api/resumes/parse', {
+        let res = await fetch(`${API_BASE}/api/resumes/parse`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -803,7 +806,7 @@ export default function App() {
         });
 
         if (!res.ok) {
-          res = await fetch('/api/parse-resume', {
+          res = await fetch(`${API_BASE}/api/parse-resume`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -854,7 +857,7 @@ export default function App() {
 
     try {
       // 1. Run local ML TF-IDF Cosine Match + Naive Bayes Category Classification
-      const res = await fetch(`/api/resumes/${activeResume.id}/analyze`, {
+      const res = await fetch(`${API_BASE}/api/resumes/${activeResume.id}/analyze`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -875,7 +878,7 @@ export default function App() {
 
       // 2. Fetch Gemini Smart Improvement Suggestions
       setIsRequestingSuggestions(true);
-      const suggestRes = await fetch(`/api/resumes/${activeResume.id}/suggest`, {
+      const suggestRes = await fetch(`${API_BASE}/api/resumes/${activeResume.id}/suggest`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -925,7 +928,7 @@ export default function App() {
   // --- HISTORY MANAGEMENT ---
   const handleViewHistory = async (resumeId: string) => {
     try {
-      const res = await fetch(`/api/resumes/${resumeId}/history`, {
+      const res = await fetch(`${API_BASE}/api/resumes/${resumeId}/history`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -943,7 +946,7 @@ export default function App() {
       'Restore this snapshot? Current unsaved modifications will be archived.',
       async () => {
         try {
-          const res = await fetch(`/api/resumes/${activeResume.id}/restore`, {
+          const res = await fetch(`${API_BASE}/api/resumes/${activeResume.id}/restore`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
