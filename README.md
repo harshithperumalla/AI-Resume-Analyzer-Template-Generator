@@ -1,62 +1,60 @@
 # AI Resume Analyzer & Template Generator
 
-An AI-powered Resume Analyzer and Resume Builder that helps users create ATS-friendly resumes, analyze resume quality, generate professional resume templates, and receive AI-driven suggestions to improve their chances of passing Applicant Tracking Systems (ATS).
+An AI-powered **Python Full Stack** application that analyzes resumes, calculates ATS scores, extracts skills, provides AI-driven feedback, and generates professional ATS-friendly resume templates.
 
 ---
 
-## 🌐 Live Demo
+# Live Demo
 
-**Frontend:** https://ai-resume-analyzer-template-generat.vercel.app/
+**Frontend:** 🚧 Coming Soon
 
-> **Backend Status:** 🚧 Backend deployment is currently in progress. The live demo showcases the frontend UI. AI resume analysis, authentication, database connectivity, and other server-side features will be available after backend deployment.
+**Backend:** 🚧 Deployment in Progress
 
 ---
 
 # Features
 
-- 🤖 AI Resume Analysis
+- 🤖 AI-Powered Resume Analysis
 - 📊 ATS Score Calculation
-- 💡 AI Suggestions to Improve ATS Score
-- 📄 Resume Template Generator
-- 📂 Resume Upload (PDF/DOCX)
+- 💡 AI Resume Feedback & Suggestions
+- 📄 Resume Builder & Template Generator
+- 📂 PDF/DOCX Resume Upload
+- 🔍 Resume Parsing & Skill Extraction
+- 🎯 Keyword Matching & Missing Skills Detection
 - 📈 Resume Strength & Weakness Analysis
-- 🔍 Keyword Analysis
-- 🧠 Missing Skills Detection
-- 📋 Resume Preview
-- 📥 Download Resume
-- 👤 User Authentication
-- 📊 Dashboard
+- 📥 PDF Resume Download
+- 👤 JWT-Based User Authentication
 - 📁 Resume History
-- 📱 Fully Responsive Design
-- 🌙 Dark & Light Theme
+- 📱 Responsive User Interface
 
 ---
 
 # Tech Stack
 
 ## Frontend
-
 - React.js
 - TypeScript
 - Vite
 - Tailwind CSS
 - React Router
-- Framer Motion
 
 ## Backend
-
-- Node.js
-- Express.js
+- Python
+- FastAPI
+- Uvicorn
+- Pydantic
+- JWT Authentication
 
 ## Database
-
 - MongoDB Atlas
 
-## AI Technologies
-
+## AI & NLP
 - Google Gemini API
-- OpenAI API
-- NLP-based Resume Parsing
+- spaCy
+- scikit-learn
+- TF-IDF Vectorizer
+- Cosine Similarity
+- Resume Parsing
 - ATS Scoring Engine
 
 ---
@@ -64,206 +62,102 @@ An AI-powered Resume Analyzer and Resume Builder that helps users create ATS-fri
 # Project Structure
 
 ```text
-AI_RESUME_ANALYZER/
+AI-Resume-Analyzer-Template-Generator/
 
-│── src/
-│   ├── server/
-│   ├── App.tsx
-│   ├── main.tsx
-│   ├── index.css
-│
-│── .env
-│── .env.example
-│── best_model.json
-│── db.json
-│── metadata.json
-│── index.html
-│── package.json
-│── package-lock.json
-│── server.js
-│── server.ts
-│── tsconfig.json
-│── vite.config.ts
-│── README.md
+backend/
+├── routes/
+├── models/
+├── services/
+├── utils/
+├── main.py
+├── requirements.txt
+
+client/
+├── src/
+├── public/
+├── package.json
+
+README.md
+render.yaml
 ```
 
 ---
 
 # Environment Variables
 
-Create a `.env` file in the project root.
+Create a `.env` file.
 
 ```env
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-OPENAI_API_KEY=YOUR_OPENAI_API_KEY
-JWT_SECRET=YOUR_JWT_SECRET
-MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
-PORT=5000
-VITE_API_URL=http://localhost:5000
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_secret
+GEMINI_API_KEY=your_gemini_api_key
+VITE_API_URL=http://localhost:8000
 ```
-
-> **Note:** Never commit your actual API keys, JWT secret, or MongoDB credentials to GitHub. Replace the placeholder values with your own credentials before running the project.
 
 ---
 
 # Installation
 
-Clone the repository
-
 ```bash
 git clone https://github.com/harshithperumalla/AI-Resume-Analyzer-Template-Generator.git
-```
 
-Move into the project
-
-```bash
 cd AI-Resume-Analyzer-Template-Generator
 ```
 
-Install dependencies
+## Frontend
 
 ```bash
+cd client
 npm install
-```
-
----
-
-# Running the Project
-
-Start the development server
-
-```bash
 npm run dev
 ```
 
-Frontend
+Runs on:
 
 ```
 http://localhost:3000
 ```
 
-Backend *(After Deployment / Local Setup)*
-
-```
-http://localhost:5000
-```
-
----
-
-# Build Project
+## Backend
 
 ```bash
-npm run build
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+Runs on:
+
+```
+http://localhost:8000
 ```
 
 ---
 
-# Preview Production Build
+# AI Resume Analysis
 
-```bash
-npm run preview
-```
+The application provides:
 
----
-
-# Available Scripts
-
-Start development server
-
-```bash
-npm run dev
-```
-
-Build production version
-
-```bash
-npm run build
-```
-
-Preview production build
-
-```bash
-npm run preview
-```
+- ATS Score Calculation
+- Resume Parsing
+- Skill Extraction
+- Keyword Analysis
+- Missing Skills Detection
+- Resume Strength & Weakness Analysis
+- AI-Based Resume Suggestions
+- Resume Template Generation
 
 ---
 
-# AI Resume Analyzer
 
-The AI Resume Analyzer provides:
-
-- ATS Score (0–100)
-- Resume Quality Analysis
-- AI-Based Improvement Suggestions
-- Missing Keywords Detection
-- Skills Analysis
-- Resume Strengths & Weaknesses
-- Resume Compatibility Check
-- Section-wise Score
-- Professional Recruiter Feedback
-
----
-
-# Resume Builder
-
-- Professional Resume Templates
-- Live Resume Preview
-- Multiple Resume Sections
-- Modern UI
-- Download Resume
-- ATS-Friendly Design
-
----
-
-# Future Enhancements
-
-- Job Description Matching
-- Cover Letter Generator
-- LinkedIn Profile Analyzer
-- AI Resume Rewrite
-- Interview Question Generator
-- Portfolio Generator
-- Skill Gap Analysis
-- Salary Prediction
-- Multi-language Resume Support
-
----
-
-# Deployment
-
-| Service | Status |
-|---------|--------|
-| Frontend (Vercel) | ✅ Live |
-| Backend API | 🚧 Deploying Soon |
-| MongoDB Atlas | 🚧 Integration in Progress |
-| AI Services | 🚧 Coming Soon |
-
----
-
-# Contributing
-
-Contributions, suggestions, and feature requests are welcome.
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
-
----
-
-# License
-
-This project is licensed under the MIT License.
-
----
 
 # Author
 
 **Harshith Perumalla**
 
-GitHub: https://github.com/harshithperumalla
+GitHub:  
+https://github.com/harshithperumalla
 
 ---
 
-⭐ If you found this project helpful, consider giving it a **Star** on GitHub!
+⭐ If you found this project useful, consider giving it a Star.
