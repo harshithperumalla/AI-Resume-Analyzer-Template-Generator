@@ -1,52 +1,44 @@
 # AI Resume Analyzer & Template Generator
 
-An AI-powered Resume Analyzer and Resume Builder that helps users build ATS-friendly resumes, analyze uploaded resumes, receive AI-powered suggestions, and generate professional resume templates.
+An AI-powered **Python Full Stack** application that analyzes resumes, calculates ATS scores, extracts skills, provides AI-driven feedback, and generates professional ATS-friendly resume templates.
 
 ---
 
 # Live Demo
 
-**Frontend:**Frontend:** 🚧 Coming Soon
+**Frontend:** 🚧 Coming Soon
 
-> Backend deployment is currently in progress. 
+**Backend:** 🚧 Deployment in Progress
 
 ---
 
 # Features
 
-- 🤖 AI Resume Analysis
+- 🤖 AI-Powered Resume Analysis
 - 📊 ATS Score Calculation
-- 💡 AI Resume Suggestions
-- 📄 Resume Builder
-- 🎨 Multiple Resume Templates
-- 📂 Upload Resume (PDF/DOCX)
-- 🔍 Resume Parsing
+- 💡 AI Resume Feedback & Suggestions
+- 📄 Resume Builder & Template Generator
+- 📂 PDF/DOCX Resume Upload
+- 🔍 Resume Parsing & Skill Extraction
+- 🎯 Keyword Matching & Missing Skills Detection
 - 📈 Resume Strength & Weakness Analysis
-- 🧠 Missing Skills Detection
-- 🎯 Keyword Matching
-- 📋 Live Resume Preview
 - 📥 PDF Resume Download
-- 👤 User Authentication (JWT)
+- 👤 JWT-Based User Authentication
 - 📁 Resume History
-- 🌙 Dark / Light Mode
-- 📱 Fully Responsive UI
+- 📱 Responsive User Interface
 
 ---
 
 # Tech Stack
 
 ## Frontend
-
-- React 18
+- React.js
 - TypeScript
 - Vite
 - Tailwind CSS
 - React Router
-- Framer Motion
-- Recharts
 
 ## Backend
-
 - Python
 - FastAPI
 - Uvicorn
@@ -54,21 +46,20 @@ An AI-powered Resume Analyzer and Resume Builder that helps users build ATS-frie
 - JWT Authentication
 
 ## Database
-
 - MongoDB Atlas
 
 ## AI & NLP
-
 - Google Gemini API
+- spaCy
+- scikit-learn
 - TF-IDF Vectorizer
 - Cosine Similarity
 - Resume Parsing
 - ATS Scoring Engine
-- NLP Keyword Extraction
 
 ---
 
-# Folder Structure
+# Project Structure
 
 ```text
 AI-Resume-Analyzer-Template-Generator/
@@ -76,7 +67,8 @@ AI-Resume-Analyzer-Template-Generator/
 backend/
 ├── routes/
 ├── models/
-├── config.py
+├── services/
+├── utils/
 ├── main.py
 ├── requirements.txt
 
@@ -97,13 +89,8 @@ Create a `.env` file.
 
 ```env
 MONGODB_URI=your_mongodb_uri
-
 JWT_SECRET=your_secret
-
 GEMINI_API_KEY=your_gemini_api_key
-
-PORT=8000
-
 VITE_API_URL=http://localhost:8000
 ```
 
@@ -111,19 +98,13 @@ VITE_API_URL=http://localhost:8000
 
 # Installation
 
-Clone the repository
-
 ```bash
 git clone https://github.com/harshithperumalla/AI-Resume-Analyzer-Template-Generator.git
-```
 
-```bash
 cd AI-Resume-Analyzer-Template-Generator
 ```
 
----
-
-# Frontend
+## Frontend
 
 ```bash
 cd client
@@ -131,25 +112,21 @@ npm install
 npm run dev
 ```
 
-Runs on
+Runs on:
 
 ```
 http://localhost:3000
 ```
 
----
-
-# Backend
+## Backend
 
 ```bash
 cd backend
-
 pip install -r requirements.txt
-
-python -m uvicorn main:app --reload
+uvicorn main:app --reload
 ```
 
-Runs on
+Runs on:
 
 ```
 http://localhost:8000
@@ -159,62 +136,28 @@ http://localhost:8000
 
 # AI Resume Analysis
 
-The analyzer provides:
+The application provides:
 
-- ATS Score
-- Resume Category Prediction
-- Resume Strengths
-- Resume Weaknesses
-- Missing Skills
-- Missing Keywords
-- Keyword Density
-- Resume Formatting Analysis
-- Section Analysis
-- Improvement Suggestions
+- ATS Score Calculation
+- Resume Parsing
+- Skill Extraction
+- Keyword Analysis
+- Missing Skills Detection
+- Resume Strength & Weakness Analysis
+- AI-Based Resume Suggestions
+- Resume Template Generation
 
 ---
 
-# Resume Builder
 
-- Live Resume Preview
-- ATS-Friendly Templates
-- Multiple Themes
-- PDF Download
-- Resume History
-- Modern UI
-
----
-
-# Upcoming Features
-
-- Job Description Matching
-- AI Resume Rewrite
-- Cover Letter Generator
-- LinkedIn Profile Analyzer
-- Interview Preparation
-- Portfolio Generator
-- Skill Gap Analysis
-
----
-
-# Deployment
-
-| Service | Status |
-|----------|--------|
-| Frontend (Vercel) | ✅ Live |
-| Backend (Render) | 🚧 Deploying |
-| MongoDB Atlas | 🚧 Configuring |
-| Gemini API | 🚧 Integration |
-
----
 
 # Author
 
-## Harshith Perumalla
+**Harshith Perumalla**
 
-GitHub:
+GitHub:  
 https://github.com/harshithperumalla
 
 ---
 
-⭐ If you like this project, please give it a Star.
+⭐ If you found this project useful, consider giving it a Star.
